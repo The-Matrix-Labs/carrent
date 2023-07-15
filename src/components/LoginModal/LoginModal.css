@@ -1,0 +1,173 @@
+@import '../../components/variables.css';
+ .root {
+	padding: 32px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0px;
+}
+/** RentAll - Begin **/
+
+.logInModalContainer {
+	max-width: 900px;
+	width: 100%;
+	padding: 10px;
+	margin: 54px auto;
+}
+.logInModalBody {
+	padding: 0px;
+}
+.lineThrough {
+	position: relative;
+	z-index: 1;
+	display: block;
+	width: 100%;
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lineThrough::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+	margin-top: -5px;
+	margin-left: -20px;
+	width: 40px;
+	height: 10px;
+	background-color: #fff;
+	content: '';
+}
+.lineThrough::after {
+	position: absolute;
+	top: 49%;
+	z-index: -2;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	content: '';
+}
+.formGroup {
+	margin-bottom: 6px;
+	margin-top: 20px;
+	position: relative;
+}
+.formSection {
+	overflow: hidden;
+}
+.noPadding {
+	padding: 0px;
+}
+.textAlignRight {
+	text-align: right;
+}
+.textAlignLeft {
+	text-align: right;
+	padding-right: 10px;
+}
+@media (max-width: 991px) {
+	.textAlignLeft {
+		text-align: left;
+		margin-bottom: 5px;
+		padding-right: 0px;
+	}
+}
+.modalCaptionLink {
+	color: #000;
+}
+.modalCaptionLinkLarge {
+	font-size: 16px;
+	line-height: 32px;
+}
+.modalCaptionLink:hover,
+.modalCaptionLink:focus {
+	color: #000;
+	text-decoration: underline;
+}
+.button {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 20px 16px;
+	width: 100%;
+	outline: 0;
+	border: 1px solid #373277;
+	border-radius: 60px;
+	background: #373277;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 1.3333333;
+	cursor: pointer;
+}
+.btnPrimary {
+	border-color: var(--common-border-color);
+	background-color: var(--common-background-color);
+	color: #fff;
+}
+.btnPrimary:hover,
+.btnPrimary:focus {
+	border-color: var(--common-border-color);
+	background-color: var(--common-background-color);
+	color: #fff;
+}
+.btnPrimaryBorder {
+	border-color: var(--common-border-color);
+	color: #090B1E;
+	background-color: transparent;
+}
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active {
+	border-color:var(--common-border-color) !important;
+	color: #090B1E !important;
+	background-color: transparent !important;
+}
+.btnSmall {
+	padding: 5px 0px;
+}
+.iconPosition {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+@media screen and (max-width: 640px) {
+	.logInModalContainer {
+		margin: 0px auto;
+	}
+}
+/** Custom **/
+
+.welcomeHeading {
+	font-size: 29px;
+	text-align: center;
+	margin: 40px 0px;
+	color: #000;
+	font-weight: bold;
+}
+.sectionBlock {
+	max-width: 450px;
+	width: 100%;
+}
+.carImage {
+	max-width: 450px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: 90%;
+	background-size: cover;
+}
+@media(max-width:767px)
+
+{
+	.sectionBlock {
+		max-width: 900px;
+		width: 100%
+	}
+	.carImage {
+		display: none;
+	}
+}

@@ -1,0 +1,10 @@
+.rentAllHeaderAdmin {
+	position: fixed!important;
+}
+.adminLayout {
+	padding-top: 64px!important;
+}
+.sidebarNav {
+	height: 75vh;
+	overflow-y: scroll;
+}

@@ -1,0 +1,60 @@
+@import '../../../../components/common.css';
+
+.filters {
+     border-bottom: 1px solid #dce0e0;
+ }
+ .filtersFooter {
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    -webkit-transform: translateZ(1px);
+    transform: translateZ(1px);
+    bottom: 0;
+    left: 0px;
+    background-color: #ffffff;
+    padding: 12px 15px;
+    display: block;
+    border-top: 1px solid #ccc;
+ }
+
+ .filterSection {
+   overflow: auto;
+   height: 70vh;
+   padding: 20px 40px 0px 40px;
+ }
+ .applyTextRight{
+   text-align: right;
+}
+.fullWidth{
+   width:auto!important;
+   padding: 6px 12px 7px !important;
+}
+.paddingZero{
+   padding: 0;
+}
+.btnLink{
+font-size: 16px;
+font-weight: bold !important;
+}
+
+ @media screen and (max-width: 768px) {
+    .filtersFooter {
+        width: 100%;
+        z-index: 5;
+    }
+    .responsiveMargin{
+       margin-top:45px !important;
+    }
+ }
+ @media screen and (max-width: 767px) {
+ .houseMobile{
+    padding-bottom: 40px;
+ }
+ .filterSection {
+   padding: 20px 30px 0px 30px;
+}
+
+
+}
+
+

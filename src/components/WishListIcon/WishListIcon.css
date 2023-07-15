@@ -1,0 +1,41 @@
+@import '../variables.css';
+ .iconContainer {
+	position: absolute;
+	right: 18px;
+    top: 12px;
+	z-index: 2;
+}
+.buttonContainer {
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	padding: 10px 16px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 60px;
+	width: auto;
+	font-size: 15px;
+	line-height: 18px;
+	color: var(--common-text-color);
+	font-weight: normal;
+	border: 1px solid transparent;
+	min-width: 52px;
+	background: #ffffff;
+}
+.wishListIcon {
+	color: var(--btn-primary-bg);
+	font-size: 30px;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	cursor: pointer;
+}
+.buttonContainer .wishListIcon {
+	font-size: 20px !important;
+}
+.buttonText {
+	padding-left: 3px;
+}
+.vtrMiddle {
+	vertical-align: middle;
+}

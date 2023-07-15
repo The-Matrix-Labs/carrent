@@ -1,0 +1,15 @@
+@import '../common.css';
+
+.sectionCaptionLink {
+  font-size: 14px;
+  color: var(--btn-primary-bg);
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: none;
+}
+.sectionCaptionLink:hover ,.sectionCaptionLink:active, .sectionCaptionLink:focus   {
+  color:var(--btn-primary-bg);
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: none;
+}

@@ -1,0 +1,21 @@
+@import '../admin-common.css';
+@import '../../common.css';
+.ChangeToUpperCase{
+    text-transform: uppercase;
+}
+.btnPrimaryBorder{
+    border-radius: 21px;
+    margin-right: 15px;
+    padding: 11px 30px;
+}
+.marginBottom{
+    margin-bottom: 20px;
+}
+.active{
+    background-color: var(--btn-primary-bg) !important;
+    color: var(--btn-secondary-color) !important;
+}
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active{
+    background-color: var(--btn-primary-bg) !important;
+    color: var(--btn-secondary-color) !important;
+}

@@ -1,0 +1,115 @@
+@import '../common.css';
+ .profileAvatarSection {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.profileAvatar {
+	height: 70px;
+	width: 70px;
+}
+.overviewIcon {
+	width: 55px;
+	height: auto;
+	text-align: center;
+	color: #767676;
+	margin-bottom: 10px;
+	filter: invert(98%) sepia(1%) saturate(3658%) hue-rotate(181deg) brightness(70%) contrast(80%)
+}
+.locationIcon {
+	margin-right: 5px;
+	margin-top: -4px;
+}
+.textMuted,
+.textMuted:hover,
+.textMuted:focus,
+.textMuted:hover:focus {
+	color: #767676;
+	text-decoration: none;
+	font-size: inherit;
+}
+.reviewStar {
+	display: inline;
+	position: relative;
+	float: left;
+}
+.allPadding {
+	padding: 40px !important;
+	border-bottom: 1px dotted #d8dce1;
+}
+.displayFlex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.displayFlex::after,
+.displayFlex::before {
+	display: none;
+}
+.noMargin {
+	margin: 0;
+}
+.noPadding{
+	padding: 0 !important;
+}
+@media screen and (max-width: 640px) {
+	.introCenter {
+		text-align: center;
+	}
+	.bookItPanel {
+		text-align: left;
+	}
+}
+@media screen and (max-width: 767px) {
+	.profileAvatarMobile {
+		height: 100px;
+		width: 100px;
+	}
+}
+.displayInlineFlex {
+	display: inline-block;
+	text-align: center;
+	padding: 15px;
+	width: 25%;
+	border-right: 1px dotted #d8dce1;
+	border-bottom: 1px dotted #d8dce1;
+}
+.displayInlineFlex:nth-child(4) {
+	border-right: none;
+}
+.displayInlineFlex:nth-child(5) {
+	border-bottom: none;
+}
+.displayInlineFlex:nth-child(6) {
+	border-bottom: none;
+}
+@media(max-width:767px){
+
+.displayInlineFlex {
+	width: 50%;
+}
+.displayInlineFlex:nth-child(2) {
+	border-right: none;
+}
+.displayInlineFlex:nth-child(4) {
+	border-right: none;
+}
+.displayInlineFlex:nth-child(6) {
+	border-right: none;
+}
+.allPaddingBorder {
+	padding: 5px;
+}
+.allPadding {
+	padding: 35px 25px !important;
+}
+}

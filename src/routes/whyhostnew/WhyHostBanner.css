@@ -1,0 +1,52 @@
+@import "../../components/variables.css";
+.bannerText {
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+/***CUSTOM***/
+.mainText {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 20px 0px !important;
+}
+.listText {
+  font-size: 20px;
+}
+.listButton {
+  height: 50px;
+  font-size: 18px;
+  color: #fff !important;
+  outline: none !important;
+  margin: 40px 0px;
+  height: 50px;
+  font-size: 18px;
+  color: #090B1E !important;
+  outline: none !important;
+  border-color: var(--common-border-color) !important;
+  background-color: #fff !important;
+  margin: 40px 0px;
+  border-radius: 60px;
+  width: 100%;
+  font-weight: 700;
+  max-width: 150px;
+}
+.Banner {
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+  background-position: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+@media screen and (max-width: 640px) {
+  .bannerText {
+    top: 15%;
+  }
+}
+@media (max-width:450px) {
+  .mainText {
+    font-size: 45px;
+  }
+}

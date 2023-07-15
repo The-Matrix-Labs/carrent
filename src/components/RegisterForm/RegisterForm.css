@@ -1,0 +1,128 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+
+/** RentAll - Begin **/
+
+.formGroup {
+	margin-bottom: 6px;
+	position: relative;
+}
+.iconPosition {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+.formControlInput {
+	padding: 12px 35px 15px 10px;
+	height: 46px;
+	border-radius: 60px;
+	font-size: 16px;
+	background-color: #fff;
+	color: var(--common-text-color);
+	margin: 12px 0 0 0;
+	border: 1px solid transparent;
+	box-shadow: 0px 1px 8px 2px #eeebeb !important;
+	-webkit-box-shadow: 0px 0px 8px 2px #eeebeb !important;
+	-webkit-appearance: none !important;
+}
+select {
+	background-position: 96% 9px;
+}
+.formSection {
+	overflow: hidden;
+}
+.button {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 13px 16px;
+	width: 100%;
+	outline: 0;
+	border: 1px solid #373277;
+	border-radius: 60px;
+	background: #373277;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 1.3333333;
+	cursor: pointer;
+}
+.button:hover {
+	background: rgba(54, 50, 119, 0.8);
+}
+.button:focus {
+	border-color: #0074c2;
+	box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+.facebook {
+	border-color: #3b5998;
+	background: #3b5998;
+	border-radius: 4px;
+	text-decoration: none;
+	composes: button;
+}
+.btnPrimary {
+	border-color: var(--btn-primary-bg);
+	background-color: var(--btn-primary-bg);
+	color: #fff;
+}
+.btnPrimary:hover,
+.btnPrimary:focus,
+.btnPrimary:active,
+.btnPrimary:active:hover,
+.btnPrimary:active:focus {
+	border-color: var(--btn-primary-bg-hover) !important;
+	background-color: var(--btn-primary-bg-hover) !important;
+	color: #fff;
+}
+.btnPrimaryBorder {
+	border-color: var(--btn-primary-bg);
+	color: var(--btn-primary-bg);
+	background-color: #fff;
+}
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover,
+.btnPrimaryBorder:active:focus {
+	border-color: var(--btn-primary-bg-hover);
+	color: var(--btn-primary-bg-hover);
+	background-color: #fff;
+}
+.noPadding {
+	padding: 0px;
+}
+.Birthpadding {
+	padding: 12px 0 0 1px;
+}
+.paddingBottom {
+	padding-bottom: 7px;
+}
+.birthForm {
+	height: 46px;
+	font-size: 16px;
+	border: 1px solid transparent;
+	box-shadow: 0px 1px 8px 2px #eeebeb !important;
+	-webkit-box-shadow: 0px 0px 8px 2px #eeebeb !important;
+	-webkit-appearance: none !important;
+	border-radius: 60px;
+}
+.backgroundOne {
+	background: url("./mail.png") no-repeat;
+	background-position: 97% 50%;
+}
+.backgroundTwo {
+	background: url("./avatar.png") no-repeat;
+	background-position: 97% 50%;
+}
+.backgroundThree {
+	background: url("./lock.png") no-repeat;
+	background-position: 97% 50%;
+}
+.paddingRight5 {
+	padding-right: 5px !important;
+}
+.paddingLeft5 {
+	padding-left: 5px !important;
+}

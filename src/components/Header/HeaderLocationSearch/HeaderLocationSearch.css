@@ -1,0 +1,56 @@
+@import '../../common.css';
+ .searchContainer {
+	font-size: 19px;
+	line-height: 24px;
+	background-color: #ffffff;
+	border-radius: 50px;
+	border: none;
+	padding: 0px;
+	table-layout: fixed;
+	height: 42px;
+	width: 100%;
+	position: relative;
+	max-width: 400px;
+	margin-top: 8px;
+	border-radius: 60px !important;
+	box-shadow: 0 1px 15px 3px #eeebeb !important;
+	-webkit-box-shadow: 0 1px 15px 3px #eeebeb !important;
+	-webkit-appearance: none !important;
+}
+.searchIconContainer {
+	width: 45px;
+	padding-left: 12px;
+}
+.searchIcon {
+	height: 24px;
+	width: 24px;
+	display: block;
+	fill: rgb(118, 118, 118);
+}
+.geosuggest {
+	outline: none;
+	width: 100% !important;
+	margin: 0px !important;
+}
+@media screen and (min-width: 1200px) and (max-width: 1250px) {
+	.searchContainer {
+		max-width: 295px;
+	}
+}
+@media screen and (min-width: 1400px) {
+	.searchContainer {
+		max-width: 440px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.searchContainer {
+		margin-top: 0px;
+		box-shadow: inherit !important;
+    -webkit-box-shadow: inherit !important;
+    -webkit-appearance: inherit !important;
+	}
+}
+.steeringImage {
+	width: 30px;
+	height: 29px;
+}

@@ -1,0 +1,29 @@
+@import '../../components/variables.css';
+ .root {
+	padding-left: 0px;
+	padding-right: 0px;
+	overflow: hidden;
+}
+.container {
+	margin: 0 auto;
+	padding-bottom: 24px;
+	max-width: 1080px;
+}
+.pageContainer {
+	padding-top: 48px;
+}
+.containerTitle {
+	color: var(--common-text-color);
+	line-height: 24px;
+	margin: 0 0 80px;
+	padding: 0px 15px;
+	font-weight: bold;
+	font-size: 34px !important;
+	text-align: center;
+}
+
+@media screen and (max-width: 1170px) {
+	.containerTitle {
+		text-align: center;
+	}
+}
